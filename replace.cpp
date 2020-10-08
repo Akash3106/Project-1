@@ -8,6 +8,18 @@ int main(){
     long long x,el;
     
     //a1
+    cin>>t;
+    for(int i=0;i<t;i++){
+        vector<long long > arr;
+        vector<long long>::iterator it;
+        int count1=0;
+        long long kval;
+        cin>>n>>x>>p>>k;
+        for(int j=0; j<n;j++){
+            cin>>el;
+            arr.push_back(el);
+        }
+
 
 
 
