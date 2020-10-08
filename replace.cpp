@@ -25,6 +25,16 @@ int main(){
 
         sort(arr.begin(),arr.end());
         //a2
+            if(n==1){
+            if(arr[0]==x){
+                // cout<<":";
+                cout<<"0\n";
+            }
+            else{
+                // cout<<":2:";
+                cout<<"1\n";
+            }
+        }
 
 
         else{
