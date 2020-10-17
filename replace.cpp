@@ -6,6 +6,7 @@ int main(){
     int t;
     long n,p,k;
     long long x,el;
+    int z=11,ha=12;
     
     //a1
     cin>>t;
@@ -40,6 +41,7 @@ int main(){
         else{
 
             //a3
+            cout<<"We are tring to debug :"<<z;
             
                 else
                 if((x<arr[p-1] && p<=k )|| (x>arr[p-1] && p>=k)){
@@ -81,6 +83,7 @@ int main(){
                             count1=abs(it-arr.begin()-(p-1));
                         }
                         }
+                        cout<<"Debugger Ending : "<<ha;
                         
                         
                     }
